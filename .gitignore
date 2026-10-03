@@ -1,0 +1,17 @@
+# AWS credentials and local secret/config files
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# Local outputs and editor state
+.terraform/
+cdk.out/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
